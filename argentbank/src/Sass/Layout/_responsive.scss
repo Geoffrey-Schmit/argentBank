@@ -1,0 +1,38 @@
+@media (min-width: 920px) {
+  .introduction {
+    height: 400px;
+    background-position: 0% 33%;
+    section {
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      width: 300px;
+      margin: 2rem;
+      p {
+        font-size: 1.2rem;
+      }
+      .subtitle {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .items {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 720px) {
+  .compte {
+    flex-direction: row;
+    .cta {
+      flex: 0;
+      button {
+        width: 200px;
+      }
+    }
+  }
+
+  
+
+  
+}
